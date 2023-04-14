@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "verify books  result page is displayed",
+        "description": "",
+        "id": "this-is-alibaba-search-features;verify-books--result-page-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9496396600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch application  URL",
+            "match": {
+              "location": "stepdefClass.launch_application_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4556402200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "type books in the search fieldve",
+            "match": {
+              "location": "stepdefClass.type_books_in_the_search_fieldve()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20081311400,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@data-spm-anchor-id\u003d\u0027a2700.galleryofferlist.scGlobalHomeHeader.i0.1ff764a3Eg8hkU\u0027]\"}\n  (Session info: chrome\u003d106.0.5249.119)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027SARAH\u0027, ip: \u0027192.168.1.117\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\13215\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 16eeae8133ff11163ae4ee1f445de490\n*** Element info: {Using\u003dxpath, value\u003d//input[@data-spm-anchor-id\u003d\u0027a2700.galleryofferlist.scGlobalHomeHeader.i0.1ff764a3Eg8hkU\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat stepdef.stepdefClass.click_search_button(stepdefClass.java:42)\r\n\tat ✽.Then Click search button(Alibaba.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Click search button",
+            "match": {
+              "location": "stepdefClass.click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "verify books  result page is displayed",
+            "match": {
+              "location": "stepdefClass.verify_books_result_page_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Alibaba"
+          }
+        ]
+      }
+    ],
+    "name": "This is alibaba search features",
+    "description": "",
+    "id": "this-is-alibaba-search-features",
+    "keyword": "Feature",
+    "uri": "Alibaba.feature"
+  }
+]
